@@ -1,5 +1,2 @@
-torch
-diffusers
-transformers
-accelerate
-gradio
+streamlit
+google-genai
