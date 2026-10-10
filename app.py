@@ -1,4 +1,4 @@
-import os
+0import os
 import streamlit as st
 from google import genai
 
@@ -57,7 +57,7 @@ if mode == "💬 Chat & Info Assistant":
                     try:
                         # Call Google Gemini API
                         response = client.models.generate_content(
-                            model="gemini-1.5-flash",
+                            model="gemini-2.0-flash",
                             contents=prompt,
                         )
                         answer = response.text
