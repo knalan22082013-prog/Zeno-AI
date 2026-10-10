@@ -12,7 +12,7 @@ mode = st.sidebar.radio(
     ["💬 Chat & Info Assistant", "🎨 Real Photo Generator", "🎬 Video Generator"]
 )
 
-# Initialize Gemini Client using Streamlit Secrets or Environment Variables
+# Initialize Gemini Client using Streamlit Secrets
 api_key = st.secrets.get("GEMINI_API_KEY", os.environ.get("GEMINI_API_KEY", ""))
 
 if api_key:
